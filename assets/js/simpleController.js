@@ -8,6 +8,7 @@ function countController($scope)
 {
 	//Proprieade counter
 	$scope.counter = 0;
+
 	//Métoda que adiciona + 1
 	$scope.addOne = function()
 	{
@@ -23,4 +24,7 @@ function countController($scope)
 			alert('Está zerado');
 		}	
 	}
+
+	//Array contendo as frutas que serão repetidas
+	$scope.fruits = ['Banana', 'Maçã', 'Laranja', 'Pêra', 'Uva'];
 }
